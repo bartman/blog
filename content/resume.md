@@ -10,7 +10,7 @@ Canada
 
 Phone: 613/282-7102</br>
 Email: bart@jukie.net</br>
-http://www.jukie.net/
+http://www.jukie.net/~bart/
 
 # Professional Objective
 

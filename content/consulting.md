@@ -1,3 +1,7 @@
++++
+title = "Jukie Networks"
++++
+
 # Hello,
 
 I am a qualified contract programmer and consultant, operating under Jukie Networks. I am seeking Linux software development contracts, as well those which require cross- platform software for UNIX or embedded applications. I am most interested in contracts which would permit me to work from my office (Ottawa, Canada) and commute in as needed for source-code integration and design meetings.

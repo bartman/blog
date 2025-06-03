@@ -1,4 +1,4 @@
-baseURL = 'http://www.jukie.net/~bart/blog/'
+baseURL = 'http://www.jukie.net/~bart/'
 languageCode = 'en-us'
 title = "bartman's blog"
 #theme = 'terminal'
@@ -31,7 +31,7 @@ theme = 'hugo-theme-re-terminal'
 
     [languages.en.params.logo]
       logoText = "bartman's blog"
-      logoHomeLink = "/~bart/blog/"
+      logoHomeLink = "/~bart/"
 
 [languages.en.menu]
 # [[languages.en.menu.main]]
@@ -48,6 +48,10 @@ theme = 'hugo-theme-re-terminal'
 #   name = "Showcase"
 #   url = "/showcase"
 #   parent = "submenu"
+  [[languages.en.menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/"
   [[languages.en.menu.main]]
     identifier = "consulting"
     name = "consulting"

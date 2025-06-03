@@ -3,7 +3,7 @@ all build:
 	hugo
 
 pub publish: build
-	rsync -avz --delete public/ up.jukie.net:public_html/blog/
+	rsync -avz --delete public/ up.jukie.net:public_html/
 
 srv serve server: build
 	hugo server --buildDrafts
