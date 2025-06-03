@@ -34,7 +34,7 @@ It was pretty easy in ion.  Below is my [lua]{tag/lua} code to implement what I 
         kpress("Mod4+U", "my_url_handler(_)"),
     })
 
-You can just throw this into your `~/.ion3/cfg_user.lua` file and restart ion.  Then highlight something, pressh `Win+U` and *voilà*!
+You can just throw this into your `~/.ion3/cfg_user.lua` file and restart ion.  Then highlight something, pressh `Win+U` and *voila*!
 
 The plan is to extend this function to trigger on other kinds or strings.
 
