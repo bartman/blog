@@ -1,7 +1,7 @@
 baseURL = 'http://www.jukie.net/~bart/'
 languageCode = 'en-us'
 title = "bartman's blog"
-#theme = 'terminal'
+#theme = 'hugo-theme-terminal'
 theme = 'hugo-theme-re-terminal'
 
 [markup.goldmark.renderer]
