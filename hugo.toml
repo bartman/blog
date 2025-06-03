@@ -2,3 +2,6 @@ baseURL = 'http://www.jukie.net/~bart/blog/'
 languageCode = 'en-us'
 title = "bartman's blog"
 theme = 'terminal'
+
+[markup.goldmark.renderer]
+unsafe= true
