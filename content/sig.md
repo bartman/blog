@@ -9,10 +9,7 @@ title = "Contact info"
 
 # keys
 
-Current GPG Key:  [DEB116A6FF1BA378A9539F5083E73B98B7BF3CB8](../keys/bart-trojanowski-public-gpg-key-DEB116A6FF1BA378A9539F5083E73B98B7BF3CB8.asc) (rsa4096)
- - Bart Trojanowski <bart.trojanowski@gmail.com>
- - Bart Trojanowski <bart@jukie.net>
- - on [pgp.mit.edu](http://pgp.mit.edu/pks/lookup?op=vindex&search=0x83E73B98B7BF3CB8)
+{{< directory_index pathURL="/keys" pathRel="../keys" >}}
 
 # pages
 
