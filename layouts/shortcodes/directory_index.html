@@ -18,9 +18,6 @@
 			<th>Bytes:</th>
 		</thead>
 
-        pathURL: {{ $pathURL }} <br/>
-        pathRel: {{ $pathRel }}
-
 		<tbody>
             {{ $files := readDir (printf "/static%s" $pathURL) }}
 
