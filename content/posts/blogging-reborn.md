@@ -20,6 +20,8 @@ distracted by work, and stop.
 
 Well here is another attempt at blogging.  This time with hugo.
 
+<!--more-->
+
 So far I followed the [quickstart](https://gohugo.io/getting-started/quick-start/)
 and picked this fancy [terminal](https://github.com/panr/hugo-theme-terminal) theme.
 
