@@ -1,7 +1,67 @@
 baseURL = 'http://www.jukie.net/~bart/blog/'
 languageCode = 'en-us'
 title = "bartman's blog"
-theme = 'terminal'
+#theme = 'terminal'
+theme = 'hugo-theme-re-terminal'
 
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "orange"
+  showMenuItems = 10
+  fullWidthTheme = false
+  centerTheme = true
+  readingTime = true
+# [params.banner]
+#   dismissible = false
+#   text = "bartman's blog"
+#   url = "https://github.com/bartman"
+
+[languages]
+  [languages.en.params]
+    title = "bartman's blog"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "bartman's blog"
+      logoHomeLink = "/~bart/blog/"
+
+[languages.en.menu]
+# [[languages.en.menu.main]]
+#   identifier = "submenu"
+#   name = "Sub menus"
+#   weight = 10
+# [[languages.en.menu.main]]
+#   identifier = "subabout"
+#   name = "About"
+#   url = "/about"
+#   parent = "submenu"
+# [[languages.en.menu.main]]
+#   identifier = "subshowcase"
+#   name = "Showcase"
+#   url = "/showcase"
+#   parent = "submenu"
+  [[languages.en.menu.main]]
+    identifier = "consulting"
+    name = "consulting"
+    url = "/consulting"
+  [[languages.en.menu.main]]
+    identifier = "resume"
+    name = "resume"
+    url = "/resume"
+  [[languages.en.menu.main]]
+    identifier = "sig"
+    name = "sig"
+    url = "/sig"
+  [[languages.en.menu.main]]
+    identifier = "keys"
+    name = "keys"
+    url = "/keys"
+

@@ -16,7 +16,7 @@ Some people have asked me to review my experience with Nexus One as a user in Ca
 
 Here be my first impressions.
 
-<img src=/~bart/blogimg/google-nexus-one-s.jpg>
+![google-nexus-one-s](../../img/google-nexus-one-s.jpg)
 
 <!--more-->
 
@@ -51,7 +51,7 @@ Overall I am very happy with the phone, and don't regret my purchase.
 My biggest complaint about the phone is actually not about the phone but about the Nexus One dock.  That was a waste of $40.  I wish I oped to buy
 a generic doc from ebay.
 
-<img src=/~bart/blogimg/nexus-one-dock-ofc.jpg>
+![nexus-one-dock-ofc](../../img/nexus-one-dock-ofc.jpg)
 
 The dock has two functions to charge your phone and to let you play music from your phone to a set of speakers.  I have no complaints about how it
 charges the phone.  I do however dislike the dock's media connectivity.  For one, the dock doesn't use the micro-usb connector, but a set of 5 ball

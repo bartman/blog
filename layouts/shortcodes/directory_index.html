@@ -1,0 +1,49 @@
+{{ $pathURL := .Get "pathURL" }}
+{{ $pathRel := .Get "pathRel" }}
+
+<script>
+	$(document).ready(function() {
+		$('#datatable2').dataTable( { "ordering": false, "order": [], } );
+		$('#datatable2_length select').val('50').change();
+	});
+</script>
+
+<div class="table-responsive">
+
+	<table id="datatable2"
+		   class="table table-bordered nobottommargin"
+		   cellspacing="0">
+		<thead>
+			<th>File:</th>
+			<th>Bytes:</th>
+		</thead>
+
+        pathURL: {{ $pathURL }} <br/>
+        pathRel: {{ $pathRel }}
+
+		<tbody>
+            {{ $files := readDir (printf "/static%s" $pathURL) }}
+
+            {{ range $files }}
+
+                {{ $fstat := os.Stat (printf "/static%s/%s" $pathURL .Name ) }}
+                {{ $link := printf "%s/%s" $pathRel .Name }}
+                
+                {{ if $fstat.IsDir }}
+                {{ else }}
+                    <tr>
+                        <td>
+                            <a href="{{ $link }}" 
+                               class="hover-animate-from-left">
+                                {{ .Name }}
+                            </a>
+                        </td>
+                        <td style="color:DarkGrey;">{{ .Size }}</td>
+                    </tr>
+                {{ end }}
+            {{ end }}
+		</tbody>
+	</table>
+
+</div>
+

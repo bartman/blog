@@ -36,7 +36,7 @@ You can run the following to add it to your `~/.gitconfig`:
 
 Here is what it looks like for me...
 
-  <img src=/~bart/blogimg/git-lg.png>
+![git-lg](../../img/git-lg.png)
 
 There might be other gems hiden in my [.gitconfig](http://www.jukie.net/~bart/conf/gitconfig), so have a look.
 

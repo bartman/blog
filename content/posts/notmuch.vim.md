@@ -48,7 +48,7 @@ display engines lets you recall email by a tag or new search criteria.
 
 When you start the vim interface, by running `vim -c NotMuch` you get something like this:
 
-<img src=/~bart/blogimg/notmuch-vim-folders.png>
+![notmuch-vim-folders](../../img/notmuch-vim-folders.png)
 
 On this screen you can see I have 3 *folders*, which actually overlap completely in this case.
 The left column shows the count, the middle is an arbitrary name, and the right is the search
@@ -56,7 +56,7 @@ used to locate the messages.  Pressing `<Enter>` moves me into the thread list, 
 
 Here is what `notmuch.vim` looks like in *search* mode:
 
-<img src=/~bart/blogimg/notmuch-vim-search.png>
+![notmuch-vim-search](../../img/notmuch-vim-search.png)
 
 Notable in the above image are notmuch's ability to filter on various attributes of
 email messages, namely: tags, and word matches.  Here, I have chosen to filter
@@ -65,7 +65,7 @@ in the subject.
 
 If you select one of the messages, you'll get something like this:
 
-<img src=/~bart/blogimg/notmuch-vim-show.png>
+![notmuch-vim-show](../../img/notmuch-vim-show.png)
 
 In this display you get all messages that belong to the thread displayed in
 chronological order -- again, similar to *gmail*.  By default the interface
