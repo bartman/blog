@@ -1,5 +1,5 @@
 +++
-title = "Blogging Reborn"
+title = "blogging reborn"
 date = "2025-06-03T11:27:57-04:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = "bartman"

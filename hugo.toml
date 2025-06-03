@@ -8,9 +8,13 @@ theme = 'hugo-theme-re-terminal'
   unsafe= true
 
 [params]
-  contentTypeName = "posts"
+  contentTypeName = "blog"
   themeColor = "orange"
   showMenuItems = 10
+  showLanguageSelector = false
+#showLastUpdated = true
+  enableGitInfo = true           # use git for last update
+  autoCover = true
   fullWidthTheme = false
   centerTheme = true
   readingTime = true
@@ -19,15 +23,28 @@ theme = 'hugo-theme-re-terminal'
 #   text = "bartman's blog"
 #   url = "https://github.com/bartman"
 
+[params.twitter]
+  creator = "bart.trojanowski"
+  site = ""
+
 [languages]
   [languages.en.params]
+    languageName = "English"
     title = "bartman's blog"
     subtitle = ""
+    owner = ""
     keywords = ""
     copyright = ""
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
+
 
     [languages.en.params.logo]
       logoText = "bartman's blog"
