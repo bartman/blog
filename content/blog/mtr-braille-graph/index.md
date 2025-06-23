@@ -14,14 +14,14 @@ readingTime = true
 hideComments = false
 +++
 
-## mtr braille graph
-
 I often monitor network stability with `mtr`, which can show a time series
 of how the network is doing at different hops between two endpoints.  I recently
 made an improvement to `mtr` that shows the time series as a graph using braille
 characters.
 
 <!--more-->
+
+## braille
 
 The Unicode character set has many glyphs, including many
 [block drawing characters](https://en.wikipedia.org/wiki/Box-drawing_characters).
@@ -33,6 +33,8 @@ the latter of which has a 4x2 matrix of dots `⣿`, giving us 256 combinations o
 I had played with braille characters before in my [blot](https://github.com/bartman/blot/)
 plotting library.  I had more leeway there, since the canvas was limited by
 the size of the terminal.  This time I only have one line of text.
+
+## graphing
 
 If you're not familiar, `mtr` has multiple modes, including "display mode 2", which
 already displays a series of color codes alphanumeric characters to indicate the
@@ -51,6 +53,8 @@ Adding braille characters has two major wins for `mtr` display:
 ❯ mtr -t 8.8.8.8 --displaymode=3
 ```
 ![mtr-displaymode-3.png](mtr-displaymode-3.png)
+
+## running
 
 This change has been merged
 ([422f4a0](https://github.com/traviscross/mtr/commit/422f4a08f34c755cc5a281d3ebc1286c31a661be))
@@ -71,7 +75,7 @@ into `mtr`, but I don't think it's part of any OS release. So you can build it y
     ```sh
     ❯ sudo apt update
     ❯ sudo apt install git build-essential autoconf automake libncurses-dev libjansson-dev libcap-dev pkg-config locales
-    ❯ git clone 
+    ❯ git clone
     ❯ git clone https://github.com/traviscross/mtr.git /mtr
     ❯ ./bootstrap.sh
     ❯ ./configure
