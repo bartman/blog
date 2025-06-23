@@ -14,7 +14,7 @@ readingTime = true
 hideComments = false
 +++
 
-I had Fooocus running on Debian, and I recall it was not trivial to setup.
+I had [Fooocus](https://github.com/lllyasviel/Fooocus) running on Debian, and I recall it was not trivial to setup.
 
 I am now running NixOS, and wanted to run it again to enhance some images.
 
@@ -23,6 +23,8 @@ Here is how to run dockerized Fooocus app on NixOS (or anywhere, really).
 <!--more-->
 
 ## configure docker on nix
+
+We need to install Nvidia container toolkit, and make sure docker is enabled.
 
 ```nix
 hardware.nvidia-container-toolkit.enable = true;
