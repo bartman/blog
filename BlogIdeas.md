@@ -1,3 +1,2 @@
 - i3 workspaces.py script
-- nixos overlays
 - printing to Brother MFC L3780 CDW (or any .ppd)
