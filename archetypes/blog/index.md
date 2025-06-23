@@ -2,7 +2,7 @@
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = '{{ .Date }}'
 
-categories = ["post"]
+categories = ["blog"]
 author = "bartman"
 authorTwitter = "barttrojanowski"
 cover = ""
