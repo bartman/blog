@@ -27,3 +27,62 @@ and picked this fancy [terminal](https://github.com/panr/hugo-theme-terminal) th
 
 I'm here because I've been converting my dev system to NixOS, and I'm learning a lot
 of new things.  Might as well put them to paper.
+
+## configuration
+
+I've decided to put my blog in `content/blog` directory, and to use the terminal theme.
+
+```toml
+baseURL = 'http://www.jukie.net/~bart/'
+languageCode = 'en-us'
+title = "bartman's blog"
+theme = 'hugo-theme-re-terminal'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  contentTypeName = "blog"
+  themeColor = "orange"
+  showMenuItems = 10
+  showLanguageSelector = false
+  enableGitInfo = true           # use git for last update
+  autoCover = true
+  fullWidthTheme = false
+  centerTheme = true
+  readingTime = true
+```
+
+## archetypes
+
+The `archetype` is a mechanism to template new content.
+
+Running `hugo new content blog/something-something` will create
+`content/blog/something-something/` directory with the contents
+of `archetype/blog/` directory, with some substitutions applied.
+In `archetype/blog/index.md` I have a standard "front-matter"...
+
+```md
++++
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+date = '{{ .Date }}'
+
+categories = ["blog"]
+author = "bartman"
+authorTwitter = "barttrojanowski"
+cover = ""
+tags = ["", ""]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = true
+hideComments = false
+
+draft = true
++++
+
+## title
+
+<!--more-->
+```
+
