@@ -12,8 +12,6 @@ description = ""
 showFullContent = false
 readingTime = true
 hideComments = false
-
-draft = true
 +++
 
 ## mtr braille graph

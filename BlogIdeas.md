@@ -1,3 +1,3 @@
 - i3 workspaces.py script
-- my changes to mtr
 - nixos overlays
+- printing to Brother MFC L3780 CDW (or any .ppd)
