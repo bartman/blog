@@ -5,9 +5,9 @@ relativeURLs = false
 preserveTaxonomyNames = true
 
 #theme = 'hugo-theme-terminal'
-theme = 'hugo-theme-re-terminal'
+#theme = 'hugo-theme-re-terminal'
 #theme = 'binario'
-#theme = 'yue'
+theme = 'yue'
 #theme = 'smigle'
 
 [params-binario]
