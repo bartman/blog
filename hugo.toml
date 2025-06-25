@@ -1,31 +1,62 @@
 baseURL = 'http://www.jukie.net/~bart/'
 languageCode = 'en-us'
 title = "bartman's blog"
+relativeURLs = false
+preserveTaxonomyNames = true
+
 #theme = 'hugo-theme-terminal'
 theme = 'hugo-theme-re-terminal'
+#theme = 'binario'
+#theme = 'yue'
+#theme = 'smigle'
 
-[markup.goldmark.renderer]
-  unsafe= true
+[params-binario]
 
 [params]
+  mainSections = ["blog"]
+  columns = 1
   contentTypeName = "blog"
   themeColor = "orange"
   showMenuItems = 10
   showLanguageSelector = false
-#showLastUpdated = true
+  showLastUpdated = true
   enableGitInfo = true           # use git for last update
   autoCover = true
   fullWidthTheme = false
   centerTheme = true
   readingTime = true
-# [params.banner]
-#   dismissible = false
-#   text = "bartman's blog"
-#   url = "https://github.com/bartman"
+  twitter_cards = true
+  schema = true
+  opengraph = false
+
+#[params.banner]
+#  dismissible = true
+#  text = "bartman's blog"
+#  url = "https://github.com/bartman"
 
 [params.twitter]
   creator = "bart.trojanowski"
   site = ""
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = true
+  lineNumbersInTable = false
+  tabWidth = 4
+  noClasses = true
+#style = "catppuccin-mocha"
+#style = "catppuccin-macchiato"
+#style = "gruvbox"
+#style = "monokai"
+#style = "native"
+#style = "rose-pine-moon"
+style = "xcode-dark"
 
 [languages]
   [languages.en.params]
