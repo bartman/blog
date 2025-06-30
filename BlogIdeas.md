@@ -1,2 +1,1 @@
 - i3 workspaces.py script
-- printing to Brother MFC L3780 CDW (or any .ppd)
