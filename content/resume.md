@@ -1,5 +1,6 @@
 +++
 title = "Resume"
+date = "2025-07-23T16:54:29-04:00"
 +++
 
 # Bart Trojanowski
