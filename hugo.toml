@@ -8,6 +8,7 @@ preserveTaxonomyNames = true
 #theme = 'hugo-theme-re-terminal'
 #theme = 'binario'
 theme = 'yue'
+#theme = 'dream'
 #theme = 'smigle'
 
 [params-binario]

@@ -20,8 +20,8 @@ Specialties: Linux kernel, drivers, multi-platform, security, memory, storage, o
 
 # Employment History
 
-## Chief Software Architect
-- Thikra Technologies
+## Thikra Technologies
+- Chief Software Architect
 - 2018 – Present
 
 Conducted research, prototyping, development, and optimization of custom
@@ -30,8 +30,8 @@ TCP/IP, Valgrind, DynamoRIO, page tables, custom virtual memory management
 driver, disassembly, virtual memory, memory management, PMEM, PMDK, RocksDB,
 dynamic library preload.
 
-## Consultant / Contract Developer
-- Jukie Networks Inc.
+## Jukie Networks Inc.
+- Consultant / Contract Developer
 - June 2004 - Present
 
 President of this successful consulting company specializing in Linux software
@@ -48,8 +48,8 @@ kernel and Git revision control tool; as part of ongoing efforts to keep
 current, is passionately following various open source projects such as the
 Linux kernel and Google Android.
 
-## Senior Software Architect/Consultant
-- Untether AI
+## Untether AI
+- Senior Software Architect/Consultant
 - Jan 2022 - May 2025
 
 Joined to support hardware bringup activities, Linux kernel driver development
@@ -61,16 +61,16 @@ inference workloads. Implemented various debug facilities, help in debugging
 bringup issues. Using Linux kernel, Linux perf and debug tools, AI/ML
 frameworks, clang tools, cmake, docker, amd64, x86-64, Risc-V, Aarch64.
 
-## Software Developer/Consultant
-- C2RO
+## C2RO
+- Software Developer/Consultant
 - Jul 2021 – Sept 2024
 
 Performance optimizations and security assessment for video AI/ML pipeline.
 Improving CPU utilization, multi thread efficiency, porting Python to C++.
 Using Linux, gstreamer, ffmpeg, SWIG, OpenVINO, OpenCV, OpenMP.
 
-## Senior Software Architect
-- Formulus Black
+## Formulus Black
+- Senior Software Architect
 - Dec 2019 – Jul 2021
 
 Providing research, development, and optimization services for Formulus Black,
@@ -79,8 +79,8 @@ computing, without peripherals or application changes. Using Linux kernel,
 PMEM/DCPMM, storage drivers, ramdisk, SPDK/DPDK, userspace drivers, AVX-512,
 lockless algorithms.
 
-## Chief Software Architect
-- Diablo Technologies Inc
+## Diablo Technologies Inc
+- Chief Software Architect
 - November 2010-August 2017
 
 Involved in 3 main projects:
@@ -108,8 +108,8 @@ devices. Heavily relied on Linux tool chain, Linux perf, Linux crash tool, and
 in house tools for benchmarking DMX. Concentrated on improving performance of
 the design, and removing multi-threading bottlenecks.
 
-## Software Developer
-- FortiNet
+## FortiNet
+- Software Developer
 - March 2004-June 2004
 
 Worked on debugging and extending the functionality of the FortiLog product,
@@ -118,16 +118,16 @@ reports; scope extended to developing software to handle various RAID
 configurations, detecting and acting on faults, and helping integrate code into
 several existing products.
 
-## Software Developer
-- SOMA Networks
+## SOMA Networks
+- Software Developer
 - September 2001-March 2004
 
 Designed, implemented, and responsible for a set of drivers handling telecom
 radio communication and configuration, via PCI bus using async DMA; the target
 platforms of said drivers were arm-linux and x86-linux.
 
-## Software Developer
-- Chrysalis-ITS
+## Chrysalis-ITS
+- Software Developer
 - January 2000-August 2001
 
 Designed, implemented, and responsible for maintenance of a cross platform
@@ -139,8 +139,8 @@ Chrysalis-ITS hardware; also, worked on various internal tools used by the
 firmware developers; provided Linux tutelage to other project developers; as a
 background task maintained a project CVS/NFS server for various developers.
 
-## Software Specialist
-- International Datacasting Corporation
+## International Datacasting Corporation
+- Software Specialist
 - May 1998-January 2000
 
 Developed and maintained a Java based status & control application; researched
