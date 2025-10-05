@@ -236,3 +236,26 @@ SSH keys, and all that stuff.
 - Connect with TigerVNC client: `vncviewer -SecurityTypes Plain <server-ip>:590<N>`
 - Use system username and password for authentication.
 
+## Fixing snaps
+
+Snaps didn't work for me in VNC.  Here is how I installed firefox.
+
+```
+sudo snap remove firefox
+sudo add-apt-repository ppa:mozillateam/ppa -y
+echo -e 'Package: *\nPin: release o=LP-PPA-mozillateam\nPin-Priority: 1001' | sudo tee /etc/apt/preferences.d/mozilla-firefox
+echo -e 'Package: firefox*\nPin: version 1:1snap*\nPin-Priority: -1' | sudo tee /etc/apt/preferences.d/mozilla-firefox-snap
+sudo apt update
+sudo apt install firefox -y
+```
+
+This might work for chromium.  Didn't try.
+```
+sudo snap remove chromium
+sudo apt install apt-transport-https software-properties-common wget -y
+echo 'deb http://deb.debian.org/debian bookworm main' | sudo tee /etc/apt/sources.list.d/debian-stable.list
+echo -e 'Package: *\nPin: release a=stable\nPin-Priority: 500' | sudo tee /etc/apt/preferences.d/chromium
+echo -e 'Package: chromium*\nPin: origin deb.debian.org\nPin-Priority: 700' | sudo tee -a /etc/apt/preferences.d/chromium
+sudo apt update
+sudo apt install chromium -y
+```
