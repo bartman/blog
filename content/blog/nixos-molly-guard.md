@@ -12,8 +12,6 @@ description = ""
 showFullContent = false
 readingTime = true
 hideComments = false
-
-draft = true
 +++
 
 I accidentally ran `sudo reboot` on my local desktop, thinking the shell was connected to a remote server over ssh. This rebooted the wrong system... Oops.
