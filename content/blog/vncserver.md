@@ -216,14 +216,27 @@ SSH keys, and all that stuff.
   ```
   sudo loginctl enable-linger <user>
   ```
+  (this lets systemd session live longer than the ssh login)
 
-- As each user, enable and start service (e.g., userA on :1, userB on :2, userC on :3):
+- Now, each user will get a port to connect to and an Xserver.
+  You will need to map these.
+
+  For example, if I have 3 users I might have:
+
+  | username | X session # | TCP port |
+  |----------|-------------|----------|
+  | bob      | 1           | 5901     |
+  | frank    | 2           | 5902     |
+  | joe      | 3           | 5903     |
+
+
+- As each user, and not as root, enable and start service:
   ```
   systemctl --user daemon-reload
-  systemctl --user enable userN@<X>
-  systemctl --user start userN@<X>
+  systemctl --user enable vncserver@<X>
+  systemctl --user start vncserver@<X>
   ```
-  (replace `N` and `X` with username and X session number)
+  (replace `<X>` with X session number of that user)
 
 ## Firewall Configuration
 - Allow VNC ports from VPN subnet:
@@ -233,10 +246,17 @@ SSH keys, and all that stuff.
   ```
 
 ## Connection
-- Connect with TigerVNC client: `vncviewer -SecurityTypes Plain <server-ip>:590<N>`
+- From another system, connect with TigerVNC client:
+  ```
+  vncviewer -SecurityTypes Plain <server-ip>:590<N>
+  ```
 - Use system username and password for authentication.
 
-## Fixing snaps
+## Working around snaps
+
+Both Firefox and Chromium in Ubuntu are usually installed with snaps.
+But snaps were not working, and I had disabled them above because
+of spamming the logs.
 
 Snaps didn't work for me in VNC.  Here is how I installed firefox.
 
